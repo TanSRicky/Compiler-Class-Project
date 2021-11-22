@@ -1,0 +1,47 @@
+#include<math.h>
+#include<string>
+#include<iostream.h>
+#include"mylib.h"
+//include library functions
+//using namespace std;
+{* HELLO 
+{ HELLO 
+ using namespace std;
+ }
+} *}
+
+{* HELLO 
+
+*} {* HELLO using namespace std;
+
+*}
+/*merge
+
+using namespace std;
+MULTI LINE 
+
+COMMENT 
+
+ strings*/
+program test1;
+
+var
+    arm,leg:currency;  //currency
+    a,b,ab:string;     //string variables
+    c,d,cd:int;        //integer variables
+    e,goo:real;        //float type
+
+start //start of the main code
+    a:="hello";
+    b:=" world";
+    ab:=a+b;        /*merge strings*/
+    c:=543;
+    d:=120,345;
+    leg=$12,123.05;
+    cd:=c+d;        /*add unsigned integers*/
+    e:=444,444.13;
+    goo:=c+e;       /*add singed integers and reals */
+    read_from_device[A:file.test];
+    write_to_device[A:test];
+    return 0;
+stop //stop the program
